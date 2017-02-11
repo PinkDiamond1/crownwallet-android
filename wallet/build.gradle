@@ -5,11 +5,11 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.coinomi.wallet.dev"
+        applicationId "com.crown.pay"
         minSdkVersion 10
         targetSdkVersion 23
-        versionCode 52
-        versionName "v1.6.1"
+        versionCode 88
+        versionName "v1.0.0"
     }
 
     buildTypes {

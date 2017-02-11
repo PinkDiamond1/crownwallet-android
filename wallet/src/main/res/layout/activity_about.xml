@@ -21,15 +21,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/coinomi_logo_gradient"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
-
             <TextView
                 style="@style/AppNameLong"
                 android:layout_width="wrap_content"
@@ -49,6 +40,15 @@
                 android:layout_below="@+id/textView"
                 android:layout_alignLeft="@+id/textView"
                 android:layout_alignStart="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/crown_logo_gradient"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
         <Button
@@ -68,38 +68,7 @@
             <!--android:layout_marginTop="16dp"-->
             <!--android:layout_gravity="center"-->
             <!--android:text="@string/coinomi_website" />-->
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:paddingTop="@dimen/activity_vertical_margin">
-            <TextView
-                android:id="@+id/translation_globe"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/NormalText"
-                android:paddingRight="8dp"
-                android:paddingEnd="8dp"
-                android:text="@string/font_icon_language"
-                tools:text="A#"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="@style/NormalText"
-                android:text="@string/about_credits_translations" />
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            style="@style/NormalText"
-            android:autoLink="web"
-            android:text="@string/about_credits_translations_credits" />
-
-        <TextView
+    <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/NormalText"
