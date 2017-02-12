@@ -8,7 +8,7 @@ android {
         applicationId "com.crown.pay"
         minSdkVersion 10
         targetSdkVersion 23
-        versionCode 88
+        versionCode 1
         versionName "v1.0.0"
     }
 
