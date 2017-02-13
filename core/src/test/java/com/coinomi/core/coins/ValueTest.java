@@ -1,4 +1,4 @@
-package com.coinomi.core.coins;
+package com.crownpay.core.coins;
 
 /**
  * Copyright 2014 Andreas Schildbach
@@ -18,9 +18,9 @@ package com.coinomi.core.coins;
  */
 
 
-import com.coinomi.core.util.GenericUtils;
+import com.crownpay.core.util.GenericUtils;
 
-import static com.coinomi.core.coins.Value.*;
+import static com.crownpay.core.coins.Value.*;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;

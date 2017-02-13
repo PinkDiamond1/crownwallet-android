@@ -1,11 +1,11 @@
-package com.coinomi.core.wallet;
+package com.crownpay.core.wallet;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DogecoinMain;
-import com.coinomi.core.coins.DogecoinTest;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.protos.Protos;
+import com.crownpay.core.coins.BitcoinMain;
+import com.crownpay.core.coins.CoinType;
+import com.crownpay.core.coins.DogecoinMain;
+import com.crownpay.core.coins.DogecoinTest;
+import com.crownpay.core.coins.LitecoinMain;
+import com.crownpay.core.protos.Protos;
 import org.bitcoinj.crypto.KeyCrypter;
 import org.bitcoinj.crypto.KeyCrypterScrypt;
 import org.bitcoinj.crypto.MnemonicException;

@@ -1,15 +1,15 @@
-package com.coinomi.core.util;
+package com.crownpay.core.util;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.BlackcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DigitalcoinMain;
-import com.coinomi.core.coins.FeathercoinMain;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.coins.NuBitsMain;
-import com.coinomi.core.coins.PeercoinMain;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.crownpay.core.coins.BitcoinMain;
+import com.crownpay.core.coins.BlackcoinMain;
+import com.crownpay.core.coins.CoinType;
+import com.crownpay.core.coins.DigitalcoinMain;
+import com.crownpay.core.coins.FeathercoinMain;
+import com.crownpay.core.coins.LitecoinMain;
+import com.crownpay.core.coins.NuBitsMain;
+import com.crownpay.core.coins.PeercoinMain;
+import com.crownpay.core.exceptions.AddressMalformedException;
+import com.crownpay.core.wallet.AbstractAddress;
 
 import org.bitcoinj.core.Coin;
 import org.junit.Test;

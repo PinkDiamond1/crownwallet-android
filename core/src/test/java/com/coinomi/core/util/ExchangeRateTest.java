@@ -1,4 +1,4 @@
-package com.coinomi.core.util;
+package com.crownpay.core.util;
 
 /*
  * Copyright 2014 Andreas Schildbach
@@ -17,13 +17,13 @@ package com.coinomi.core.util;
  * limitations under the License.
  */
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.FiatType;
-import com.coinomi.core.coins.FiatValue;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.coins.NuBitsMain;
-import com.coinomi.core.coins.Value;
+import com.crownpay.core.coins.BitcoinMain;
+import com.crownpay.core.coins.CoinType;
+import com.crownpay.core.coins.FiatType;
+import com.crownpay.core.coins.FiatValue;
+import com.crownpay.core.coins.LitecoinMain;
+import com.crownpay.core.coins.NuBitsMain;
+import com.crownpay.core.coins.Value;
 
 import org.junit.Test;
 

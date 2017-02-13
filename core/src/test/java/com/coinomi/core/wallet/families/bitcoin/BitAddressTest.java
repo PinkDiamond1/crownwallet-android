@@ -1,10 +1,10 @@
-package com.coinomi.core.wallet.families.bitcoin;
+package com.crownpay.core.wallet.families.bitcoin;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.exceptions.AddressMalformedException;
-import com.coinomi.core.wallet.AbstractAddress;
+import com.crownpay.core.coins.BitcoinMain;
+import com.crownpay.core.coins.CoinType;
+import com.crownpay.core.coins.LitecoinMain;
+import com.crownpay.core.exceptions.AddressMalformedException;
+import com.crownpay.core.wallet.AbstractAddress;
 
 import org.bitcoinj.core.Address;
 import org.bitcoinj.core.AddressFormatException;

@@ -1,12 +1,12 @@
-package com.coinomi.core.exchange.shapeshift;
+package com.crownpay.core.exchange.shapeshift;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DogecoinMain;
-import com.coinomi.core.coins.FiatValue;
-import com.coinomi.core.coins.NuBitsMain;
-import com.coinomi.core.exchange.shapeshift.data.ShapeShiftExchangeRate;
-import com.coinomi.core.util.ExchangeRateBase;
+import com.crownpay.core.coins.BitcoinMain;
+import com.crownpay.core.coins.CoinType;
+import com.crownpay.core.coins.DogecoinMain;
+import com.crownpay.core.coins.FiatValue;
+import com.crownpay.core.coins.NuBitsMain;
+import com.crownpay.core.exchange.shapeshift.data.ShapeShiftExchangeRate;
+import com.crownpay.core.util.ExchangeRateBase;
 
 import org.junit.Test;
 

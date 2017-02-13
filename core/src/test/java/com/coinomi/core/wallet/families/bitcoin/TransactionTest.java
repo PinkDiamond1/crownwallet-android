@@ -1,8 +1,8 @@
-package com.coinomi.core.wallet.families.bitcoin;
+package com.crownpay.core.wallet.families.bitcoin;
 
-import com.coinomi.core.coins.CannacoinMain;
-import com.coinomi.core.coins.NuBitsMain;
-import com.coinomi.core.coins.PeercoinMain;
+import com.crownpay.core.coins.CannacoinMain;
+import com.crownpay.core.coins.NuBitsMain;
+import com.crownpay.core.coins.PeercoinMain;
 
 import org.bitcoinj.core.Transaction;
 import org.junit.Test;

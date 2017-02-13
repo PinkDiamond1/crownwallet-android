@@ -1,4 +1,4 @@
-package com.coinomi.core.uri;
+package com.crownpay.core.uri;
 
 /*
  * Copyright 2012, 2014 the original author or authors.
@@ -18,19 +18,19 @@ package com.coinomi.core.uri;
  * 
  */
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.BitcoinTest;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DashMain;
-import com.coinomi.core.coins.DogecoinMain;
-import com.coinomi.core.coins.LitecoinMain;
-import com.coinomi.core.coins.NuBitsMain;
-import com.coinomi.core.coins.NuSharesMain;
-import com.coinomi.core.coins.NxtMain;
-import com.coinomi.core.coins.PeercoinMain;
-import com.coinomi.core.util.GenericUtils;
-import com.coinomi.core.wallet.families.bitcoin.BitAddress;
-import com.coinomi.core.wallet.families.nxt.NxtAddress;
+import com.crownpay.core.coins.BitcoinMain;
+import com.crownpay.core.coins.BitcoinTest;
+import com.crownpay.core.coins.CoinType;
+import com.crownpay.core.coins.DashMain;
+import com.crownpay.core.coins.DogecoinMain;
+import com.crownpay.core.coins.LitecoinMain;
+import com.crownpay.core.coins.NuBitsMain;
+import com.crownpay.core.coins.NuSharesMain;
+import com.crownpay.core.coins.NxtMain;
+import com.crownpay.core.coins.PeercoinMain;
+import com.crownpay.core.util.GenericUtils;
+import com.crownpay.core.wallet.families.bitcoin.BitAddress;
+import com.crownpay.core.wallet.families.nxt.NxtAddress;
 
 import org.bitcoinj.core.Coin;
 import org.junit.Test;
@@ -38,7 +38,7 @@ import org.spongycastle.util.encoders.Hex;
 
 import java.io.UnsupportedEncodingException;
 
-import static com.coinomi.core.util.BitAddressUtils.getHash160;
+import static com.crownpay.core.util.BitAddressUtils.getHash160;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;

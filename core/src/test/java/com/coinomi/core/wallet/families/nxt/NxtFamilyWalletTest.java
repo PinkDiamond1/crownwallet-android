@@ -1,19 +1,19 @@
-package com.coinomi.core.wallet.families.nxt;
+package com.crownpay.core.wallet.families.nxt;
 
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.NxtMain;
-import com.coinomi.core.coins.Value;
-import com.coinomi.core.coins.families.NxtFamily;
-import com.coinomi.core.coins.nxt.Account;
-import com.coinomi.core.coins.nxt.Attachment;
-import com.coinomi.core.coins.nxt.Convert;
-import com.coinomi.core.coins.nxt.NxtException;
-import com.coinomi.core.coins.nxt.Transaction;
-import com.coinomi.core.coins.nxt.TransactionImpl;
-import com.coinomi.core.protos.Protos;
-import com.coinomi.core.wallet.SendRequest;
-import com.coinomi.core.wallet.Wallet;
-import com.coinomi.core.wallet.WalletAccount;
+import com.crownpay.core.coins.CoinType;
+import com.crownpay.core.coins.NxtMain;
+import com.crownpay.core.coins.Value;
+import com.crownpay.core.coins.families.NxtFamily;
+import com.crownpay.core.coins.nxt.Account;
+import com.crownpay.core.coins.nxt.Attachment;
+import com.crownpay.core.coins.nxt.Convert;
+import com.crownpay.core.coins.nxt.NxtException;
+import com.crownpay.core.coins.nxt.Transaction;
+import com.crownpay.core.coins.nxt.TransactionImpl;
+import com.crownpay.core.protos.Protos;
+import com.crownpay.core.wallet.SendRequest;
+import com.crownpay.core.wallet.Wallet;
+import com.crownpay.core.wallet.WalletAccount;
 
 import org.bitcoinj.crypto.DeterministicHierarchy;
 import org.bitcoinj.crypto.DeterministicKey;

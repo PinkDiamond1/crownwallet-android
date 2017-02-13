@@ -1,8 +1,8 @@
-package com.coinomi.core.wallet;
+package com.crownpay.core.wallet;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.CoinType;
-import com.coinomi.core.coins.DogecoinMain;
+import com.crownpay.core.coins.BitcoinMain;
+import com.crownpay.core.coins.CoinType;
+import com.crownpay.core.coins.DogecoinMain;
 
 import org.bitcoinj.core.ECKey;
 import org.bitcoinj.crypto.BIP38PrivateKey;

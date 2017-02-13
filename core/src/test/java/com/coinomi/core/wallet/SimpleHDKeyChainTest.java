@@ -1,8 +1,8 @@
-package com.coinomi.core.wallet;
+package com.crownpay.core.wallet;
 
-import com.coinomi.core.coins.BitcoinMain;
-import com.coinomi.core.coins.BitcoinTest;
-import com.coinomi.core.protos.Protos;
+import com.crownpay.core.coins.BitcoinMain;
+import com.crownpay.core.coins.BitcoinTest;
+import com.crownpay.core.protos.Protos;
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;

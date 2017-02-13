@@ -1,8 +1,8 @@
-package com.coinomi.stratumj;
+package com.crownpay.stratumj;
 
-import com.coinomi.stratumj.messages.BaseMessage;
-import com.coinomi.stratumj.messages.CallMessage;
-import com.coinomi.stratumj.messages.ResultMessage;
+import com.crownpay.stratumj.messages.BaseMessage;
+import com.crownpay.stratumj.messages.CallMessage;
+import com.crownpay.stratumj.messages.ResultMessage;
 
 import org.json.JSONException;
 import org.junit.Assert;

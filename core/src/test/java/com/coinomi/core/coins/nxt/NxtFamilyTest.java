@@ -1,13 +1,13 @@
-package com.coinomi.core.coins.nxt;
+package com.crownpay.core.coins.nxt;
 
 /**
  * @author John L. Jegutanis
  */
 
-import com.coinomi.core.coins.NxtMain;
-import com.coinomi.core.coins.nxt.Appendix.EncryptedMessage;
-import com.coinomi.core.wallet.families.nxt.NxtAddress;
-import com.coinomi.core.wallet.families.nxt.NxtFamilyKey;
+import com.crownpay.core.coins.NxtMain;
+import com.crownpay.core.coins.nxt.Appendix.EncryptedMessage;
+import com.crownpay.core.wallet.families.nxt.NxtAddress;
+import com.crownpay.core.wallet.families.nxt.NxtFamilyKey;
 
 import org.bitcoinj.crypto.DeterministicHierarchy;
 import org.bitcoinj.crypto.DeterministicKey;
