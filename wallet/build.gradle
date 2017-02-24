@@ -8,8 +8,8 @@ android {
         applicationId "com.crownpay.wallet"
         minSdkVersion 10
         targetSdkVersion 23
-        versionCode 5
-        versionName "v1.0.3"
+        versionCode 6
+        versionName "v1.0.4"
     }
 
     buildTypes {
