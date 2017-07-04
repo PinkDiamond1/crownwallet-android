@@ -18,7 +18,7 @@ public class CrownMain extends BitFamily {
         name = "Crown";
         symbol = "CRW";
         uriScheme = "crown";
-        bip44Index = 99;
+        bip44Index = 72;
         unitExponent = 8;
         feeValue = value(12000);
         minNonDust = value(5460);

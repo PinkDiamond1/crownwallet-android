@@ -2,14 +2,14 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.crownpay.wallet"
         minSdkVersion 10
         targetSdkVersion 23
         versionCode 6
-        versionName "v1.0.4"
+        versionName "v1.0.6"
     }
 
     buildTypes {

@@ -92,10 +92,11 @@ public class Constants {
                                                     new ServerAddress("btc-cce-2.coinomi.net", 5001)),
             new CoinAddress(BitcoinTest.get(),      new ServerAddress("btc-testnet-cce-1.coinomi.net", 15001),
                                                     new ServerAddress("btc-testnet-cce-2.coinomi.net", 15001)),
-            new CoinAddress(CrownMain.get(),        new ServerAddress("crwelectrum.infernopool.com", 50001),
-                                                    new ServerAddress("crwelectrum2.infernopool.com", 50001),
-                                                    new ServerAddress("crwelectrum3.infernopool.com", 50001),
-                                                    new ServerAddress("crwelectrum4.infernopool.com", 50001))
+            new CoinAddress(CrownMain.get(),        new ServerAddress("blr-crwseed.infernopool.com", 50001),
+                                                    new ServerAddress("fra-crwseed.infernopool.com", 50001),
+                                                    new ServerAddress("sgp-crwseed.infernopool.com", 50001),
+                                                    new ServerAddress("nyc-crwseed.infernopool.com", 50001),
+                                                    new ServerAddress("lon-crwseed.infernopool.com", 50001))
     );
 
     public static final HashMap<CoinType, Integer> COINS_ICONS;
